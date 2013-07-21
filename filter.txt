@@ -1,3 +1,7 @@
+[Adblock Plus 2.0]
+! Title: WrongPlanet.net clutter
+! Version: 1
+! Last modified: 21 Jul 2013 09:41 UTC
 www.wrongplanet.net##.shadowbox
 www.wrongplanet.net##.st_delicious_hcount
 www.wrongplanet.net##.st_email_hcount

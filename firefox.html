@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/slimbox2.js"></script>
+	<link rel="stylesheet" href="stylesheets/slimbox2.css" type="text/css" media="screen" />
+
+    <title>Instructions for Firefox</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+        <header>
+          <h1>Instructions for Firefox</h1>
+        </header>
+
+        <section id="main_content">
+			<h3>Step 1: Install extensions</h3>
+
+			<p>Follow each of these links and click <strong>Add to Firefox</strong>, then restart Firefox
+
+			<ul>
+			  <li><strong>AdBlock Plus</strong>: <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/">https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/</a>
+			  <li><strong>Stylish</strong>: <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">https://addons.mozilla.org/en-US/firefox/addon/stylish/</a>
+			  <li><strong>Lazarus</strong>: <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/lazarus-form-recovery/">https://addons.mozilla.org/en-US/firefox/addon/lazarus-form-recovery/</a>
+			</ul>
+
+			<h3>Step 2: Configure extensions</h3>
+			
+			<p>Open Add-ons Manager from the Firefox menu:<br>
+				<a href="images/f01-extensions.png" rel="lightbox-extensions"><img src="images/f01-extensions.png" width="250" /></a>
+			</p>
+			
+			<h4>AdBlock Plus</h4>
+			
+			<p>The default filter list (EasyList) is enough to block the ads, but add a custom one to remove more clutter:</p>
+			
+			<ol>
+				<li>Click <strong>Options</strong> next to <strong>AdBlock Plus</strong></li>
+				<li>Click <strong>Filter preferences...</strong></li>
+				<li>Click <strong>Add filter subscription</strong>.</li>
+				<li>Click <strong>Add a different subscription...</strong></li>
+				<li>
+					Under <strong>Filter list location</strong> enter <strong>https://raw.github.com/WP-FMX/WP/master/filter.txt</strong>
+					(you can leave "Subscription title" blank)
+				</li>
+				<li>
+					Click <strong>Add subscription</strong><br>
+					<a href="images/f02-adblock.png" rel="lightbox-extensions"><img src="images/f02-adblock.png" width="250" /></a>
+				</li>
+				<li>Close the AdBlock Plus Filter Preferences dialog and Add-ons Manager tab</li>
+			</ol>
+
+			<h4>Stylish</h4>
+
+			<p>
+				Go to <a target="_blank" href="http://userstyles.org/styles/90807/wrongplanet-forum-hyperlink-fix">http://userstyles.org/styles/90807/wrongplanet-forum-hyperlink-fix</a>
+				and click <strong>+ Install with Stylish</strong>
+			</p>
+
+			<h3>Step 3: Try it out</h3>
+
+			<p>
+				Reload WrongPlanet and see the difference! Forum view (note visited links in purple):<br>
+				<a href="images/f-forum-before.png" title="Forum view before" rel="lightbox-before-after"><img src="images/f-forum-before.png" width="250" /></a>
+				<a href="images/f-forum-after.png" title="Forum view after" rel="lightbox-before-after"><img src="images/f-forum-after.png" width="250" /></a>
+			</p>
+
+			<p>
+				Topic view (unvisited link in blue):<br>
+				<a href="images/f-topic-before.png" title="Topic view before" rel="lightbox-before-after"><img src="images/f-topic-before.png" width="250" /></a>
+				<a href="images/f-topic-after.png" title="Topic view after" rel="lightbox-before-after"><img src="images/f-topic-after.png" width="250" /></a>
+			</p>
+			
+			<h4>Recovering post text</h4>
+			
+			<p>
+				The Lazarus extension will automatically save everything you type into web forms - it doesn't
+				need any configuration. To recover the text just right-click inside a textbox and select
+				<strong>Recover Text</strong> or <strong>Recover Form</strong>:<br>
+				<a href="images/f03-lazarus.png" rel="lightbox"><img src="images/f03-lazarus.png" width="250" /></a>
+			</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

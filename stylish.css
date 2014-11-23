@@ -1,0 +1,18 @@
+/* https://userstyles.org/styles/90807/wrongplanet-forum-color-fixes */
+
+@-moz-document domain("wrongplanet.net")
+{
+	/* Main background and title */
+	body {background: none !important; background-color: #97969E !important;}
+	#primarywrap .inner {background-color: #F3F3F3 !important;}
+	#contentmain h2, .interior #contentmain h1, .interior #contentleft h1 {color:#000001 !important;}
+	#mobile-menu {background-color: #606F9C !important;}
+
+	/* Alternating post backgrounds (same colors as old WP) */
+	.row {background-color:#BAE4A6 !important;}
+	.row:nth-of-type(even) {background-color:#B7D0F0 !important;}
+
+	/* Links */
+	a:link {color:#142487 !important; }
+	a:visited {color:#813F74 !important; }
+}

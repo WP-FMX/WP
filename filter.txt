@@ -1,22 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: WrongPlanet.net clutter
-! Version: 2
-! Last modified: 04 Oct 2013 11:47 UTC
-www.wrongplanet.net##.shadowbox
-www.wrongplanet.net##.st_delicious_hcount
-www.wrongplanet.net##.st_email_hcount
-www.wrongplanet.net##.st_facebook_hcount
-www.wrongplanet.net##.st_google_hcount
-www.wrongplanet.net##.st_linkedin_hcount
-www.wrongplanet.net##.st_livejournal_hcount
-www.wrongplanet.net##.st_reddit_hcount
-www.wrongplanet.net##.st_sharethis_hcount
-www.wrongplanet.net##.st_stumbleupon_hcount
-www.wrongplanet.net##.st_technorati_hcount
-www.wrongplanet.net##.st_tumblr_hcount
-www.wrongplanet.net##.st_twitter_hcount
-www.wrongplanet.net##.st_yahoo_hcount
-www.wrongplanet.net/images/dlanhamlink.png
-www.wrongplanet.net/images/hotchalkglamlogo.jpg
-wrongplanet.net##iframe[src*="/ads/"]
+! Version: 3
+! Last modified: 13 Dec 2014 11:05 UTC
+! For the new WrongPlanet forum
 
+wrongplanet.net##.horizontalad
